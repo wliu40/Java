@@ -1,0 +1,6 @@
+18:16:18 **** Incremental Build of configuration Debug for project vector ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o vector.o "..\\vector.cpp" 
+g++ -o vector.exe vector.o 
+Info: Nothing to build for vector
+Info: Nothing to build for vector
