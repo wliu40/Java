@@ -4574,3 +4574,43 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-01-24 00:41:42.873
 !MESSAGE Error processing aggregated exchange. Exchange[Message: [b5a29c64-05ca-4455-8cc8-790fcba4b903, b4eb21f4-3ead-4d3c-9df0-e8622f230ed0, 578ca687-8292-4744-8d89-86ce95dd3c97, 722a508e-3ad9-4f76-b9a6-302e5b876465, 959f84be-6466-4908-9d2d-4e6feabceefe, 69b8c297-b452-4dee-a4d4-6960992886cd, d204ba59-5d5d-492f-b490-9518dc08056a, c84d0d9b-fc05-4add-a4fa-9179c0f79683, 411a5f0e-c7e2-424d-af22-0f302a88b371]]. Caused by: [org.apache.camel.component.http.HttpOperationFailedException - HTTP operation failed invoking http://download.codetrails.com/com.codetrails.woodstock.server/proposals/v1 with statusCode: 404]
+!SESSION 2017-01-25 23:58:16.274 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2017-01-25 23:58:46.841
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-25 23:59:17.053
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-01-25 23:59:17.054
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Arvin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-01-26 02:00:02.195
+!MESSAGE Failed delivery for (MessageId: ID-ARVIN-PC-65253-1485413076856-0-6 on ExchangeId: ID-ARVIN-PC-65253-1485413076856-0-8). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.http.HttpOperationFailedException: HTTP operation failed invoking http://download.codetrails.com/com.codetrails.woodstock.server/proposals/v1 with statusCode: 404
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-01-26 02:00:02.223
+!MESSAGE Error processing aggregated exchange. Exchange[Message: [f7736044-7b08-4db1-bff2-8068c70fb36e]]. Caused by: [org.apache.camel.component.http.HttpOperationFailedException - HTTP operation failed invoking http://download.codetrails.com/com.codetrails.woodstock.server/proposals/v1 with statusCode: 404]

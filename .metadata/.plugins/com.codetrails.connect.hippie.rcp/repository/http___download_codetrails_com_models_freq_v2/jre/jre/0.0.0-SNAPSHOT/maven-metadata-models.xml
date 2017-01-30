@@ -5,28 +5,28 @@
   <version>0.0.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20170124.012959</timestamp>
+      <timestamp>20170126.012842</timestamp>
       <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20170124012959</lastUpdated>
+    <lastUpdated>20170126012842</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>ovrd-freq</classifier>
         <extension>zip</extension>
-        <value>0.0.0-20170124.012959-3</value>
-        <updated>20170124012959</updated>
+        <value>0.0.0-20170126.012842-3</value>
+        <updated>20170126012842</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>ctor-freq</classifier>
         <extension>zip</extension>
-        <value>0.0.0-20170124.012516-2</value>
-        <updated>20170124012516</updated>
+        <value>0.0.0-20170126.012402-2</value>
+        <updated>20170126012402</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>freq</classifier>
         <extension>zip</extension>
-        <value>0.0.0-20170124.011335-1</value>
-        <updated>20170124011335</updated>
+        <value>0.0.0-20170126.011251-1</value>
+        <updated>20170126011251</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
